@@ -59,7 +59,7 @@
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg md:bg-repeat-round bg-cover -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
 /* END: Hero styles */
 
@@ -182,7 +182,7 @@
 }
 
 .footer__copyrights-link {
-  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
+  @apply flex-1 flex flex-wrap sm:justify-end max-sm:mt-4 gap-10;
 }
 /* END: Footer styles */
 
