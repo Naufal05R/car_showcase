@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
       <div className='flex sm:justify-between sm:items-center max-sm:flex-col flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
         <p className='leading-loose'>
-          @2023 Carhub. <br className='2xs:hidden' /> All Rights Reserved.
+          @2023 CarHub. <br className='2xs:hidden' /> All rights reserved.
         </p>
 
         <div className='footer__copyrights-link'>
@@ -50,13 +50,13 @@ const Footer = () => {
             href='/'
             className='text-gray-500 whitespace-nowrap'
           >
-            Privacy Policy
+            Privacy & Policy
           </Link>
           <Link
             href='/'
             className='text-gray-500 whitespace-nowrap'
           >
-            Terms of Use
+            Terms & Condition
           </Link>
         </div>
       </div>
